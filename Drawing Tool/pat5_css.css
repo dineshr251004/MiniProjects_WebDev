@@ -1,0 +1,28 @@
+#cont{
+    position: relative;
+}
+#box{
+    border: 1px solid black;
+}
+#control{
+    margin-top: 10px;
+}
+#pal{
+    display: flex;
+}
+.color{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+#brush{
+    width: 100px;
+}
+#undo{
+    margin-left: 10px;
+}
+#redo{
+    margin-left: 10px;
+}
+

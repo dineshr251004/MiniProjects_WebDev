@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canvas Drawing</title>
+    <link rel="stylesheet" href="pat5_css.css">
+</head>
+<body>
+    <div id="cont">
+        <canvas id="box"></canvas>
+        <div id="control">
+            <div id="pal">
+                <div class="color" style="background-color: red;"></div>
+                <div class="color" style="background-color: blue;"></div>
+                <div class="color" style="background-color: green;"></div>
+                <div class="color" style="background-color: black;"></div>
+                <div class="color" style="background-color: #f2f2f2;"></div>
+                <div class="color" style="background-color: aqua;"></div>
+                <div class="color" style="background-color: yellow;"></div>
+                <div class="color" style="background-color: orange;"></div>
+            </div>
+            <input type="range" id="brush" min="1" max="10">
+            <button id="undo">Undo</button>
+            <button id="redo">Redo</button>
+        </div>
+    </div>
+    
+    <script src="pat5_js.js"></script>
+</body>
+</html>
+

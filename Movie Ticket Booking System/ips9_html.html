@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XYZ Online Movie Ticket Reservation</title>
+    <link rel="stylesheet" href="ips9_css.css">
+    <script src="ips9_javas.js"></script>
+</head>
+<body>
+    <h1 style="text-align:center">XYZ Online Movie Ticket Reservation</h1><br><br>
+    <div class="container">
+        <form id="reservation-form">
+            <label for="movie">Movie:</label>
+            <select id="movie">
+                <option value="">Select a movie</option>
+                <option value="movie1">Interstellar</option>
+                <option value="movie2">The ShawShank Redemption</option>
+                <option value="movie3">Kill Bill: Vol 2</option>
+            </select>
+            <br>
+            <label for="tickets">Tickets:</label>
+            <input type="number" id="tickets" min="1">
+            <br>
+            <button type="button" onclick="generateSeatGrid(4,4)">Generate Seat grids</button>
+            <div id="seats"></div>
+            <br>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone">
+            <br>
+            <button type="button" onclick="validation()">Submit</button>
+        </form>
+     </div>
+</body>
+</html>
